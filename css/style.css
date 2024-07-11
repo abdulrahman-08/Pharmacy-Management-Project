@@ -1,0 +1,26 @@
+.logo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 250px;
+    height: 200px;
+}
+.header{
+    background-color: #ddf0ff;
+    font-family: "Playwrite DK Uloopet", cursive;
+
+}
+#sellingPrice{
+    background: #b42626;
+    padding: 2px 3px;
+    color: white;
+    font-weight: 600;
+}
+#sellingPrice::before{
+    content: 'Selling Price:'; 
+}
+#date::before{
+    content: 'Date: ';
+}
+#time::before{
+    content: 'Time: ';
+}
